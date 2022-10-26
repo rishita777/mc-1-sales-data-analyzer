@@ -82,11 +82,20 @@ public class SalesRecord {
         this.clicks_in_site = clicks_in_site;
     }
 
-    // Override the toString method
     @Override
     public String toString() {
-        return "";
+        return "SalesRecord{" +
+                "date='" + date + '\'' +
+                ", customer_id=" + customer_id +
+                ", product_category=" + product_category +
+                ", payment_method='" + payment_method + '\'' +
+                ", amount=" + amount +
+                ", time_on_site=" + time_on_site +
+                ", clicks_in_site=" + clicks_in_site +
+                '}';
     }
+
+    // Override the toString method
 
 
 }
